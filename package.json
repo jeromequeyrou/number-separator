@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "commit": "git-cz",
-    "test": "jest --watch",
+    "test": "jest",
+    "test-watch": "jest --watch",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
