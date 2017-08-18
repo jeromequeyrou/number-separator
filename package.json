@@ -4,11 +4,11 @@
   "description": "number separator",
   "main": "src/index.js",
   "scripts": {
-    "test": "jest",
+    "commit": "git-cz",
+    "test": "jest --watch",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
-    "commit": "git-cz",
     "type": "git",
     "url": "https://github.com/jeromequeyrou/number-separator.git"
   },
