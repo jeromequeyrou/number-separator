@@ -1,0 +1,31 @@
+{
+  "name": "number-separator",
+  "version": "0.0.0-development",
+  "description": "number separator",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "commit": "git-cz",
+    "type": "git",
+    "url": "https://github.com/jeromequeyrou/number-separator.git"
+  },
+  "keywords": ["number", "separator", "node.js"],
+  "author": "jérôme Queyrou <jerome.queyrou@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeromequeyrou/number-separator/issues"
+  },
+  "homepage": "https://github.com/jeromequeyrou/number-separator#readme",
+  "devDependencies": {
+    "commitizen": "2.9.6",
+    "cz-conventional-changelog": "2.0.0",
+    "jest": "20.0.4",
+    "semantic-release": "^7.0.2"
+  },
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
+  }
+}
