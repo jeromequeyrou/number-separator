@@ -2,6 +2,11 @@
 
 with number-separator you can set a separator each thousands of your integer or float to give it more readable
 
+[![travis build](https://img.shields.io/travis/jeromequeyrou/number-separator.svg)](https://travis-ci.org/jeromequeyrou/number-separator/builds/266726936?utm_source=github_status&utm_medium=notification)
+[![GitHub release](https://img.shields.io/github/release/jeromequeyrou/number-separator.svg)]()
+[![license](https://img.shields.io/github/license/jeromequeyrou/number-separator.svg)]()
+[![Github file size](https://img.shields.io/github/size/jeromequeyrou/number-separator/src/index.js.svg)]()
+
 ## Installation
 
 you install it with npm : 
