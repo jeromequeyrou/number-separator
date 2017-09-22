@@ -7,7 +7,9 @@
     "commit": "git-cz",
     "test": "jest --coverage",
     "test-watch": "jest  --watch --coverage",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "report-coverage": "cat ./coverage/lcov.info | codecov",
+    "semantic-release":
+      "semantic-release pre && npm publish && semantic-release post"
   },
   "jest": {
     "coverageThreshold": {
@@ -31,6 +33,7 @@
   },
   "homepage": "https://github.com/jeromequeyrou/number-separator#readme",
   "devDependencies": {
+    "codecov": "2.3.0",
     "commitizen": "2.9.6",
     "cz-conventional-changelog": "2.0.0",
     "ghooks": "2.0.0",

@@ -6,6 +6,7 @@ with number-separator you can set a separator each thousands of your integer or 
 [![GitHub release](https://img.shields.io/github/release/jeromequeyrou/number-separator.svg)]()
 [![license](https://img.shields.io/github/license/jeromequeyrou/number-separator.svg)]()
 [![Github file size](https://img.shields.io/github/size/jeromequeyrou/number-separator/src/index.js.svg)]()
+[![Codecov](https://img.shields.io/codecov/c/github/codecov/jeromequeyrou/number-separator/src/index.js.svg)]()
 
 ## Installation
 
